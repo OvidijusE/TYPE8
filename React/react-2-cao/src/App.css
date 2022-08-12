@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(243, 247, 248);
+}
+
+.App-header {
+  background-image: url('./assets/city-blurred-hd.jpg');
+  background-size: cover;
+  align-items: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+  justify-content: center;
+}
+
+.header-title {
+  color: white;
+}
+
+.header-subtitle {
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  background-color: rgb(133, 177, 174);
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 0.5rem;
+  border: 0;
+}
+
+.main {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.portfolio-image {
+  max-width: 100%;
+}
+
+.image-text {
+  text-align: center;
+  background-color: white;
+  margin-top: -0.2rem;
+  text-align: center;
+  padding: 0.5rem 0.1rem;
+}
+
+.portfolio-cards {
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 425px) {
+  .portfolio-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .portfolio-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,9 @@
+.errorMsg {
+  margin-top: 0;
+  color: tomato;
+}
+
+.errorInput {
+  border: tomato;
+  background-color: rgb(255, 193, 182);
+}

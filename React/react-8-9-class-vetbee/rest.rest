@@ -1,0 +1,15 @@
+###
+GET https://glittery-dull-snickerdoodle.glitch.me/v1/pets/
+
+###
+GET https://glittery-dull-snickerdoodle.glitch.me/v1/meds/
+
+###
+POST https://glittery-dull-snickerdoodle.glitch.me/v1/pets/
+Content-Type: application/json
+
+{
+"name": "test233",
+"dob": 1654387200000,
+"client_email": "test233@gmail.com"
+}

@@ -1,0 +1,15 @@
+.btn {
+  background-color: #333;
+  color: snow;
+  border: none;
+  padding: 0.5em 1em;
+}
+
+/* taip neikelinesim, butinai reikalinga klase */
+/* button {
+  font-size: 50px;
+} */
+
+.total {
+  font-size: large;
+}

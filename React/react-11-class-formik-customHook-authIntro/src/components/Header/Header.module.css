@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(85, 178, 173);
+}
+
+.navLink {
+  display: inline-block;
+  padding: 1em 1.7em;
+  background-color: lightseagreen;
+}

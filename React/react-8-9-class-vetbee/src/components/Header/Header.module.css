@@ -1,0 +1,35 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vet-bee-logo {
+  max-width: 10rem;
+}
+
+.nav-item {
+  color: var(--orange);
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.hr {
+  align-self: stretch;
+  height: 0.01rem;
+  margin: 1.5rem 0;
+  background-color: var(--light-grey);
+  margin-left: -20rem;
+  margin-right: -20rem;
+  margin-top: 0.3rem;
+}
+
+.night {
+  background-color: black;
+}
+
+.day {
+  background-color: white;
+}

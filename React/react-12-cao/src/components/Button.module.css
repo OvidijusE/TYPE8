@@ -1,0 +1,17 @@
+.primary {
+  margin: 0.2rem;
+  background-color: bisque;
+  color: white;
+  border: 0;
+  border-radius: 0.2rem;
+  padding: 0.7rem 2rem;
+}
+
+.secondary {
+  margin: 0.2rem;
+  border: 0.01rem solid tomato;
+  color: tomato;
+  background-color: white;
+  border-radius: 0.2rem;
+  padding: 0.7rem 2rem;
+}

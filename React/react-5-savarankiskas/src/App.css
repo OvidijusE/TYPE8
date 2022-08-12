@@ -1,0 +1,152 @@
+:root {
+  --main-color: rgb(241, 104, 33);
+  --gray: rgb(156, 158, 157);
+}
+
+body {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.title-subtitle-section {
+  text-align: center;
+}
+
+.main-title {
+  color: var(--main-color);
+  margin-bottom: -0.5rem;
+}
+
+.main-subtitle {
+  color: var(--gray);
+}
+
+.fa {
+  color: var(--main-color);
+  margin-left: -0.5rem;
+  font-size: 2rem;
+}
+
+.learn-more {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 1rem;
+}
+
+.card {
+  max-width: 80%;
+  text-align: left;
+  margin-top: 1rem;
+}
+.card-title {
+  /* margin-left: 1rem; */
+}
+
+.card-summary {
+  color: var(--gray);
+}
+
+.main-subtitle-hr {
+  background-color: var(--main-color);
+  height: 0.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin-left: 46%;
+  margin-right: 46%;
+}
+
+.up-side {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: -2.9rem;
+  /* max-width: 80%; */
+}
+
+.bottom-side {
+  max-width: 81%;
+  margin: 0 auto;
+}
+
+.contact-form-container {
+  display: flex;
+  margin-top: 5rem;
+  /* box-shadow: 0.1rem 0.1rem 0.5rem gray; */
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.form-left-side {
+  box-shadow: 0.1rem 0.1rem 0.5rem gray;
+}
+
+.upper-right-side {
+  box-shadow: 0.1rem 0.1rem 0.5rem gray;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.bottom-right-side {
+  box-shadow: 0.1rem 0.1rem 0.5rem gray;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right-side {
+  margin-left: 1rem;
+  max-width: 30rem;
+}
+
+.name-last-name {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  max-width: 90%;
+  margin: 1rem auto;
+}
+
+.email-subject-message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 90%;
+  margin: -0.8rem auto;
+}
+
+.email,
+.subject,
+.message {
+  width: 24.3rem;
+}
+
+.form-button {
+  background-color: var(--main-color);
+  color: white;
+  border: 0;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.phone-number,
+.email-address {
+  color: var(--main-color);
+}
+
+.address,
+.phone,
+.email-container {
+  margin: 0 1rem;
+}
+
+.more-info,
+.more-info-text,
+.learn-more-button {
+  margin: 0.5rem 1rem;
+}

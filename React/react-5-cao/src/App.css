@@ -1,0 +1,31 @@
+.App {
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px gray;
+  max-width: 28rem;
+}
+
+.title {
+  text-align: center;
+  width: -webkit-fill-available;
+}
+
+.task-output {
+  border-top: 0.01rem solid black;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.toDoForm {
+  width: -webkit-fill-available;
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.input-submit {
+  padding: 0.5rem;
+}
+
+.text-input {
+  margin-right: 0.5rem;
+}

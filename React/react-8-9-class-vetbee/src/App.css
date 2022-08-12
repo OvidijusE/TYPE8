@@ -1,0 +1,20 @@
+:root {
+  --orange: rgb(253, 126, 13);
+  --light-grey: rgb(230, 228, 228);
+  --white: rgb(255, 255, 255);
+  --grey: rgb(125, 130, 133);
+}
+
+body {
+  max-width: 80rem;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.App {
+  margin-top: 0.5em;
+}

@@ -1,0 +1,48 @@
+.counter {
+  border: 0.01em solid gray;
+  margin: 0 auto;
+  max-width: 18em;
+}
+
+.result {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.control {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5em;
+  margin: 0.5em;
+}
+
+.btn {
+  padding: 0.5em 2em;
+  color: white;
+  background-color: tomato;
+  border: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.btn:active {
+  background-color: purple;
+}
+
+.light {
+  background-color: white;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode-toggler {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

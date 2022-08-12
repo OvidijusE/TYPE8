@@ -1,0 +1,50 @@
+.card {
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.text-large {
+  font-size: 28px;
+}
+
+.card.dark {
+  background-color: #333;
+  color: snow;
+}
+
+.BestBtn {
+  background-color: bisque;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+}
+
+.large {
+  padding: 2rem;
+}
+
+.accent {
+  background-color: lightcoral;
+}
+
+.header {
+  background-color: #333;
+  color: snow;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: snow;
+  padding: 5px 15px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.navLink.active {
+  background-color: rgb(110, 110, 110);
+}

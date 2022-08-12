@@ -1,0 +1,7 @@
+.pet-card {
+  border: 0.01rem solid var(--light-grey);
+  margin: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  color: var(--grey);
+}
