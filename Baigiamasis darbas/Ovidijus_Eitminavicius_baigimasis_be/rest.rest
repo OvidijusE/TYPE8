@@ -1,0 +1,86 @@
+###
+GET http://localhost:3000
+
+###
+POST http://localhost:3000/api/register
+Content-Type: application/json
+
+{
+"name": "ketvirtas",
+"email": "ketvirtas@gmail.com",
+"password": "master"
+}
+
+###
+POST http://localhost:3000/api/login
+Content-Type: application/json
+
+{
+"email": "trecias@gmail.com",
+"password": "master"
+}
+
+###
+GET http://localhost:3000/api/questions
+
+### 
+POST http://localhost:3000/api/questions
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY1OTA3ODQwNiwiZXhwIjoxNjU5MDgyMDA2fQ.shiRzoKNm_DFBCMg0QopybLEiT8O8dEK8WpGjAXtax4
+
+{
+"title": "19 klausimas",
+"content": "Labai geras klausimas"
+}
+
+###
+PATCH http://localhost:3000/api/questions/41
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY1OTMzNzMyMCwiZXhwIjoxNjU5MzQwOTIwfQ.KIOMssgIGe1IePHdGuQOYuyQTvucgIYYC0c-t-woOAM
+
+{
+"title": "zzzzzzzzzzzzzz",
+"content": "cccccccccccccc1"
+}
+
+###
+DELETE http://localhost:3000/api/questions/19
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY1OTA3ODQwNiwiZXhwIjoxNjU5MDgyMDA2fQ.shiRzoKNm_DFBCMg0QopybLEiT8O8dEK8WpGjAXtax4
+
+### 
+GET http://localhost:3000/api/questions/1/answers
+Content-Type: application/json 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY1OTA3ODQwNiwiZXhwIjoxNjU5MDgyMDA2fQ.shiRzoKNm_DFBCMg0QopybLEiT8O8dEK8WpGjAXtax4
+
+### 
+POST http://localhost:3000/api/questions/52/answers
+Content-Type: application/json 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQ2LCJpYXQiOjE2NTk0Mjk4ODAsImV4cCI6MTY1OTQzMzQ4MH0.ftlFBVNY5ki_zo78AZtnY5SO4L5hZcYU6qbpjz8qYvk
+
+{
+"content": "testas 050"
+}
+
+### 
+PATCH http://localhost:3000/api/answers/41
+Content-Type: application/json 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY1OTMzNzMyMCwiZXhwIjoxNjU5MzQwOTIwfQ.KIOMssgIGe1IePHdGuQOYuyQTvucgIYYC0c-t-woOAM
+
+{
+"content":"updated 004"
+}
+
+###
+DELETE http://localhost:3000/api/answers/37
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY1OTI2NTczOCwiZXhwIjoxNjU5MjY5MzM4fQ.ZsUd0TpVpyuaVexvh02MCs3fN2TlBaA2eiB3KRSbIT0 
+
+###
+GET http://localhost:3000/api/answersASC
+
+###
+GET http://localhost:3000/api/answersDESC
+
+
+
+

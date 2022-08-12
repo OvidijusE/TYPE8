@@ -1,0 +1,80 @@
+.card {
+  padding: 20px 20px;
+  border-radius: 8px;
+  box-shadow: 0.1rem 0.4em 0.9rem grey;
+  margin: 5px 5px;
+  max-width: 80%;
+  margin: 1rem auto;
+  background-color: #fff9f5;
+}
+
+.title {
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.like-dislike {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.created-edited-deleted {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.created,
+.edited {
+  font-size: small;
+  margin: 0 0.2rem;
+}
+
+.delete-edit button {
+  margin: 0.2rem;
+}
+
+.like-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.arrow-up {
+  display: flex;
+  align-items: baseline;
+}
+
+.arrow-up i {
+  color: green;
+}
+
+.arrow-up p {
+  margin-left: 0.2rem;
+}
+.dislike-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.arrow-down {
+  display: flex;
+  align-items: baseline;
+}
+
+.arrow-down i {
+  color: tomato;
+}
+
+.arrow-down p {
+  margin-left: 0.2rem;
+}
+
+.count-answers {
+  text-align: right;
+}
