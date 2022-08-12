@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  background-color: coral;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 3rem;
+}

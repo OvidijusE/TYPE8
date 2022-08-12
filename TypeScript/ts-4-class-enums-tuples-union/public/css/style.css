@@ -1,0 +1,23 @@
+@import 'reset.css';
+:root {
+  --error-col: red;
+}
+.card {
+  padding: 1rem 2rem;
+  border: 1px solid #000;
+  border-radius: 50%;
+  box-shadow: 5px 5px 25px gray;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card.error {
+  background-color: var(--error-col);
+  box-shadow: 5px 5px 25px var(--error-col);
+  color: white;
+  border-color: var(--error-col);
+}

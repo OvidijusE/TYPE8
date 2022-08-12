@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="./js/calculator.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Calculate</h1>
+
+      <h2>Caluculation result: <span id="result"></span></h2>
+      <div class="calculator">
+        <form>
+          <input type="number" id="n1" placeholder="number 1" />
+          <select name="" id="action">
+            <option value="add">Add</option>
+            <option value="minus">Minus</option>
+            <option value="divide">Divide</option>
+            <option value="multiply">Multiply</option>
+            <option value="pliusProc">Prideti procentus</option>
+            <option value="power">Power</option>
+          </select>
+          <input type="number" id="n2" placeholder="number 2" />
+          <button id="calculate">Calculate</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
