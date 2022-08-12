@@ -1,0 +1,14 @@
+<%- include('partials/head') %> 
+<%- include('partials/nav') %>
+<!-- Normal comment -->
+<%# This is comment and it is safely hidden in back end %>
+ <% const userName = 'James Bond' %>
+ <h1><%= title %> </h1>
+<p>Kiek yra 5 * 47 = <%=5*47%></p>
+<p>Siuo metu prisijunges yra : <%= userName %></p>
+<ul>
+  <% tech.forEach(t => { %>
+  <li><%= t %></li>
+  <% }) %>
+</ul>
+<%- include('partials/footer') %>

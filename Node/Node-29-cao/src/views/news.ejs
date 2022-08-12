@@ -1,0 +1,23 @@
+<%- include('partials/head') %> 
+
+
+
+
+<div class="container">
+    <%- include('partials/nav') %>
+    <% if (allArticlesArr.length) { %>
+     
+        <% allArticlesArr.forEach(el => { %>
+                <div class="article">
+                <img class="article-image" src="<%= el.image_url %>" alt="">
+                <div class="content">
+                <h2 class="article-title"><%= el.title %> </h2>
+                <p class="article-description" ><%= el.description %></p>
+            </div>
+                
+            </div>
+        <% }) %>
+    <% } else { %>
+        <p>There are no articles</p>
+        <% } %>
+</div>

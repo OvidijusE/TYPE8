@@ -1,0 +1,19 @@
+<%- include('partials/head') %> 
+<%- include('partials/nav') %>
+
+<% if (locals.feedback) { %>
+    <div class="feedback success">
+        <%= feedback %> 
+    </div>
+ <% } %>
+
+<h1><%= title %> </h1>
+<h2>new book</h2>
+<form action="/books/new" method="post">
+    <input type="text" name="title" placeholder="Enter title" value="Test title"> 
+    <input type="text" name="author" placeholder="Enter author" value="Test author"> 
+    <input type="number" name="year" placeholder="Enter year" value="2022"> 
+    <input type="number" name="category" value="1" id="">
+    <button type="submit" id="add-book">Create</button> 
+</form>
+<%- include('partials/footer') %>

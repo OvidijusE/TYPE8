@@ -1,0 +1,14 @@
+<% 
+function setActiveClass(page) {
+  return currentPage === page ? 'active' : ''
+}
+
+%> 
+
+
+<header class="header">
+  <nav>
+    <a href="/" class="navLink <%= setActiveClass('home') %> ">Home</a>
+    <a href="/news" class="navLink <%= setActiveClass('news') %> ">News</a>
+  </nav>
+</header>
