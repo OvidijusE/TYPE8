@@ -1,0 +1,21 @@
+###
+GET http://localhost:3000/
+
+###
+GET http://localhost:3000/api/pets
+
+###
+POST http://localhost:3000/api/pets
+Content-Type: application/json
+
+{
+    "name" : "Cherry",
+    "type" : "dog",
+    "age" : 5
+}
+
+###
+GET http://localhost:3000/api/pets/byoldest
+
+###
+GET http://localhost:3000/api/pets/bunny

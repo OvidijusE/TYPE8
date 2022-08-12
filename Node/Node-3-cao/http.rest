@@ -1,0 +1,11 @@
+GET http://localhost:3001/api/cars
+
+
+###
+POST http://localhost:3001/api/cars
+Content-Type: application/json
+
+{   "id": 5,
+    "brand": "Ford",
+    "model": "Fiesta"
+}

@@ -1,0 +1,30 @@
+### POSTS
+GET http://localhost:3000/posts
+
+
+### POSTS
+POST http://localhost:3000/api/posts
+
+# ###
+# GET http://localhost:3000/numbers/gt/10
+
+###
+GET http://localhost:3000/numbers/obj-values
+
+### Numbers
+GET http://localhost:3000/api/numbers
+
+### Numbers
+GET http://localhost:3000/api/numbers/positives
+
+### Numbers
+GET http://localhost:3000/api/numbers/obj-values
+
+### Numbers
+GET http://localhost:3000/api/numbers/max
+
+### Numbers
+GET http://localhost:3000/api/numbers/gt/5
+
+### POSTS
+GET http://localhost:3000/api/posts/dbname

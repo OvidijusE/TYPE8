@@ -1,0 +1,23 @@
+###
+GET http://localhost:3001/
+
+###
+# 1.
+GET http://localhost:3001/data
+
+###
+# 2.
+GET http://localhost:3001/data/cars/Volkswagen
+
+###
+# 3.
+GET http://localhost:3001/data/users/49
+
+###
+# 4.
+GET http://localhost:3001/data/emails
+
+
+###
+# 5.
+GET http://localhost:3001/data/females

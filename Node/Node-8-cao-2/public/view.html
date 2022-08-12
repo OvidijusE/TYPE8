@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View pets</title>
+    <script src="./view.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <a href="./add.html">Add pets</a>
+    <h1>View</h1>
+    <form action="" class="view-pets">
+      <h2>Pets</h2>
+      <button class="button button-dog">Dog</button>
+      <button class="button button-cat">Cat</button>
+      <button class="button button-bunny">Bunny</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th class="asc-age">Age: (Asc)</th>
+        </tr>
+      </thead>
+      <tbody class="table-body"></tbody>
+    </table>
+  </body>
+</html>

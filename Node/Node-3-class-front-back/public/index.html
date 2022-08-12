@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Posts</h1>
+    <button id="create">Create post</button>
+
+    <script>
+      const btn = document.getElementById("create");
+      btn.addEventListener("click", async () => {
+        const newPostData = {
+          title: "Best in Node",
+          body: "IS in Express",
+        };
+        const resp = await fetch("http://localhost:3000/api/posts", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(newPostData),
+        });
+        const dataInJs = await resp.json();
+        console.log("dataInJs ===", dataInJs);
+        if (dataInJs.success) {
+          alert(dataInJs.msg);
+        }
+      });
+    </script>
+  </body>
+</html>

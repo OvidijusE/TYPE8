@@ -1,0 +1,24 @@
+{
+  "name": "node-3-cao-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OvidijusE/Node-3-cao-2.git"
+  },
+  "keywords": [],
+  "author": "O.E",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OvidijusE/Node-3-cao-2/issues"
+  },
+  "homepage": "https://github.com/OvidijusE/Node-3-cao-2#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
