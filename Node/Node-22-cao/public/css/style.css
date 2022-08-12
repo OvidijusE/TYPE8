@@ -1,0 +1,50 @@
+.main-container {
+    max-width: 80rem;
+    margin:0 auto;
+}
+
+.nav-item.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    color: grey;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.nav-image {
+    max-width : 5rem;
+}
+
+.hr {
+    align-self: stretch;
+    height: 0.01rem;
+    margin: 1.5rem 0;
+    background-color: lightgray;
+    margin-left: -20rem;
+    margin-right: -20rem;
+    margin-top: 0.2rem;
+   
+}
+
+.email, .password, .button {
+    margin-bottom: 0.5%;
+    margin-top: 0.2%;
+}
+
+.button {
+    border: none;
+    background-color: rgb(92, 84, 214);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.2rem;
+}

@@ -1,0 +1,41 @@
+###
+GET http://localhost:3001/api/posts
+
+###
+GET http://localhost:3001/api/posts/first-posts
+
+###
+GET http://localhost:3001/api/posts/posts-by-rating
+
+###
+GET http://localhost:3001/api/posts/posts-by-rating?order=ASC
+
+###
+GET http://localhost:3001/api/posts/name/James
+
+###
+POST http://localhost:3001/api/posts
+Content-Type: application/json
+
+{
+    "title" : "posting",
+    "author": "John",
+    "body": "text text",
+    "rating": 2
+}
+
+###
+DELETE  http://localhost:3001/api/posts/9
+
+###
+POST http://localhost:3001/api/categories/create
+Content-Type: application/json 
+
+
+###
+POST http://localhost:3001/api/categories
+Content-Type: application/json 
+
+{
+    "title": "Desing"
+}

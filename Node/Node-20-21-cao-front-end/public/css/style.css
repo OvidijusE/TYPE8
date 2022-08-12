@@ -1,0 +1,97 @@
+:root {
+    --orange : rgb(253,126,13);
+    --light-grey : rgb(230, 228, 228);
+    --white : rgb(255,255,255);
+    --grey : rgb(125,130,133);
+}
+
+.main-container {
+    max-width: 80rem;
+    margin: 0 auto;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+       
+}
+
+
+.vet-bee-logo {
+    max-width: 10rem;
+}
+
+.nav-item {
+    color: var(--orange);
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.hr {
+    align-self: stretch;
+    height: 0.01rem;
+    margin: 1.5rem 0;
+    background-color: var(--light-grey);
+    margin-left: -20rem;
+    margin-right: -20rem;
+    margin-top: 0.3rem;
+   
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(173, 173, 173);
+    padding: 1rem;
+}
+
+.add-pet {
+    background-color: var(--orange);
+    border: none;
+    border-radius : 0.2rem;
+    padding : 0.7rem 2rem 0.7rem 2rem;
+    color: var(--white);
+
+}
+
+.footer {
+    text-align: center;
+}
+
+.pets-output {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.pet-section {
+    border: 0.01rem solid var(--light-grey);
+    margin: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+    color: var(--grey);
+}
+
+.view-log-button {
+    margin : 0.2rem;
+    background-color: var(--orange);
+    color: var(--white);
+    border: 0;
+    border-radius : 0.2rem;
+    padding : 0.7rem 2rem 0.7rem 2rem;
+}
+
+.delete-button {
+    margin : 0.2rem;
+    border: 1px solid var(--orange);
+    color: var(--orange);
+    background-color: var(--white);
+    border-radius : 0.2rem;
+    padding : 0.7rem 2rem 0.7rem 2rem;
+}

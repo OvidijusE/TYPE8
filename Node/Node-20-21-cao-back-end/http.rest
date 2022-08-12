@@ -1,0 +1,79 @@
+### PETS
+GET http://localhost:3000/api/pets
+
+### 
+GET http://localhost:3306/api/pets/archived
+
+### PETS JOIN LOGS
+GET http://localhost:3306/api/pets/join
+
+###
+POST http://localhost:3306/api/pets/create
+Content-Type: application/json
+
+###
+POST http://localhost:3306/api/pets
+Content-Type: application/json
+
+{
+    "name": "Ovidijus123",
+    "dob": 2002,
+    "client_email": "labas@krabaslabas.lt"
+}
+
+###
+DELETE http://localhost:3306/api/pets/5
+
+### LOGS
+GET http://localhost:3306/api/logs
+
+###
+POST http://localhost:3306/api/logs/create
+Content-Type: application/json
+
+###
+POST http://localhost:3306/api/logs
+Content-Type: application/json
+
+{
+    "pet_id": 5,
+    "description": "Vezliukas nindze",
+    "status": "Active"
+    
+}
+
+### MEDICATIONS
+GET http://localhost:3306/api/meds
+
+###
+POST http://localhost:3306/api/meds/create
+Content-Type: application/json
+
+###
+POST http://localhost:3306/api/meds
+Content-Type: application/json
+
+{
+    "name": "Aspirin",
+    "description": "A painkiller"
+}
+
+### PRESCRIPTIONS
+GET http://localhost:3306/api/pres
+
+### GET ALL PRES JOINED WITH PETS AND MEDS
+GET http://localhost:3306/api/pres/pets
+
+###
+POST http://localhost:3306/api/pres/create
+Content-Type: application/json
+
+###
+POST http://localhost:3306/api/pres
+Content-Type: application/json
+
+{
+    "medication_id": 2,
+    "pet_id": 2,
+    "comment": "another prescription"
+}

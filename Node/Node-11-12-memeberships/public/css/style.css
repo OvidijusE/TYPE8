@@ -1,0 +1,98 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@import 'reset.css';
+@import 'common.css';
+
+/* Header =============================== */
+
+.main-nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.main-nav .nav-link {
+  display: block;
+  padding: 10px 25px;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.membership-main .btn {
+  background-color: rgb(104, 124, 236);
+}
+.membership-main .btn.btn-add::before {
+  content: '+  ';
+}
+
+.membership-main {
+  background-color: rgb(237, 242, 246);
+  padding: 5% 0;
+}
+.membership-main .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.membership-main .title-block {
+  grid-column: 1 / span 2;
+}
+.membership-main .btn-add {
+  align-self: center;
+}
+
+.cards-container {
+  grid-column: 1 / span 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+/* CARD ========== */
+.card {
+  border-radius: 5px;
+  flex: 1 1 30%;
+  background-color: #fff;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 10px 10px 30px #cecece;
+}
+.card.members p {
+  min-height: 3em;
+}
+
+.fa-trash {
+  color : rgb(242,101,102)
+}
+
+.card .hr {
+  align-self: stretch;
+  height: 1px;
+  background-color: #333;
+  margin: 20px 0;
+}
+.card .btn-delete {
+  background-color: rgb(250, 228, 231);
+  align-self: flex-end;
+  padding: 9px 12px;
+  margin-right: 25px;
+  /* border: none; */
+}
+
+/* FORM */
+
+.form input, .form textarea, .form select {
+display: block;
+padding: 5px 10px;
+margin-bottom: 10px;
+font-size: 1rem;
+}
+
+.form button[type='submit'] {
+  background-color: rgb(104, 124, 236);
+}

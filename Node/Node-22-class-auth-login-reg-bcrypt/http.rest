@@ -1,0 +1,46 @@
+###
+GET http://localhost:3000/users
+
+### 
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "email": "jess@bond.lt",
+    "password": "secret123"
+}
+
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "jill@crown.lt",
+    "password": "secret1234"
+}
+
+
+###
+GET http://localhost:3000/books
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY1MjcwMTcwOCwiZXhwIjoxNjUyNzA1MzA4fQ.iNTBecQ7x-6fCP-6hD3-zz1vfLrFgXCQQh4VqA_k_qk
+
+###
+GET http://localhost:3000/books-authors
+
+###
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "captain nemo",
+    "year": "1957",
+    "author_id": 2
+}
+
+###
+GET http://localhost:3000/books-count
+
+
+
+

@@ -1,0 +1,21 @@
+### 
+GET http://localhost:3000
+
+### get users
+GET http://localhost:3000/api/users/
+
+### get services
+GET http://localhost:3000/api/services
+
+### post services
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "name": "Gold",
+    "price": 6.99,
+    "description": "This is 90 days basic membership"
+}
+
+### delete services
+DELETE  http://localhost:3000/api/services

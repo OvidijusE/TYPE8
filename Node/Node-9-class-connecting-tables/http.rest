@@ -1,0 +1,51 @@
+###
+GET http://localhost:3000/api/users
+
+###
+GET http://localhost:3000/api/book
+
+###
+DELETE http://localhost:3000/api/book/625e647093911a771417d0b2
+
+###
+GET http://localhost:3000/api/book/625e647093911a771417d0b2
+
+###
+POST http://localhost:3000/api/book
+Content-Type: application/json
+
+{
+    "title": "Book 3",
+    "year": 2015,
+    "rating": 1
+}
+
+
+###
+POST http://localhost:3000/api/author
+Content-Type: application/json
+
+{
+    "name": "Janet book3",
+    "town": "Vilnius",
+    "bookId": "625e659906209784f72ddac9"
+}
+
+
+###
+GET http://localhost:3000/api/author
+
+###
+PATCH  http://localhost:3000/api/author/625e6ab55286e34640669b7a
+Content-Type: application/json
+
+{
+    "newName": "James bk1"
+}
+
+
+###
+GET http://localhost:3000/api/book-author
+
+###
+GET http://localhost:3000/api/book-agg2

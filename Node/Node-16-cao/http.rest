@@ -1,0 +1,24 @@
+###
+GET http://localhost:3000/
+
+###
+GET http://localhost:3000/api/cars
+
+###
+GET http://localhost:3000/api/cars/3
+
+###
+POST http://localhost:3000/api/cars
+Content-Type: application/json
+
+{
+    "numberplates": "GZZ850",
+    "title": "Toyota Avensis",
+    "image": "https://s1.15min.lt/images/photos/2011/11/30/original/1322657876toyotaavensis.jpg",
+    "price": "5000.00"
+    
+}
+
+
+###
+DELETE http://localhost:3000/api/cars/4

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Posts</h1>
+    <ol id="post-list"></ol>
+    <button id="del-11">Delete 11</button>
+    <script>
+      async function getPosts() {
+        const resp = await fetch('http://localhost:3000/api/posts');
+        const postsArr = await resp.json();
+        console.log('postsArr ===', postsArr);
+        makeList(postsArr, 'post-list');
+      }
+      getPosts();
+
+      function makeList(arr, destId) {
+        const dest = document.getElementById(destId);
+        dest.innerHTML = '';
+        arr.forEach((p) => {
+          const li = document.createElement('li');
+          li.textContent = `authtor:${p.author}, title: ${p.title} `;
+          const btnEl = document.createElement('button');
+          btnEl.textContent = 'delete me';
+          li.appendChild(btnEl);
+          dest.append(li);
+        });
+      }
+      //  post routes
+      async function createPost(newPostObj) {
+        const newPost = {
+          title: newPostObj.title,
+          author: newPostObj.author,
+        };
+        const resp = await fetch(
+          `http://localhost:3000/api/posts/posts-by-rating?order=ASC&limit=10`,
+          {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(newPost),
+          }
+        );
+      }
+
+      // delete function
+      async function deletePost(delId) {
+        const resp = await fetch(`http://localhost:3000/api/posts/${delId}`, {
+          method: 'DELETE',
+        });
+        if (resp.ok) {
+          getPosts();
+        }
+      }
+
+      const btn11El = document.getElementById('del-11');
+      btn11El.addEventListener('click', () => {
+        deletePost(11);
+      });
+    </script>
+  </body>
+</html>

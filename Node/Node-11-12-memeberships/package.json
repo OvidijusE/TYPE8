@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "description": "1. init git, github\r 2. npm init -y\r 3. npm i express morgan cors dotenv mongodb\r 4. .gitignore jam node_modules .env\r 5. npm i eslint --save-dev\r 6. npm init @eslint/config\r 7. src/server.js - aprasyti express aplikacija\r 8. package json - surasom scripts :",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "lint": " eslint src/",
+    "lintfix": "eslint src/ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "O.E.",
+  "license": "ISC",
+  "bugs": {},
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.5.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
