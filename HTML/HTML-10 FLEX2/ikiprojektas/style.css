@@ -1,0 +1,77 @@
+html {
+  max-width: 70%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+body {
+  background-image: url(https://media-exp1.licdn.com/dms/image/C4D1BAQE8pzUMMhjAMA/company-background_10000/0/1549878601544?e=2159024400&v=beta&t=j_tKahjwAhmuKs6KBxLcUghlXcRrQYjS30vN6qyYfY8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.header {
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  border-radius: 0px;
+  padding: 0px 180px;
+}
+
+.iki-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.nav-items {
+  color: black;
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav-items:hover {
+  text-decoration: underline;
+}
+
+.main-text {
+  background-color: white;
+  width: 700px;
+  height: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 0px 0px 10px 10px;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+.main-article {
+  margin: 10px -280px 10px 10px;
+}
+
+.parduotuve {
+  float: left;
+  max-width: 40%;
+  max-height: 20%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.istorijos-pradzia {
+  width: 70%;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

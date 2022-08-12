@@ -1,0 +1,602 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import "reset.css";
+
+body {
+  font-family: "Inter", "Sans-serif";
+  line-height: 1.2;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.nav-items {
+  display: none;
+  color: #555555;
+}
+
+.sign-up {
+  color: #ff3998;
+}
+
+/* hero start */
+
+.hero {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  /* padding-bottom: 1em; */
+}
+
+.hero-content {
+  margin: 1.5rem 2rem;
+  padding-bottom: 2em;
+  max-width: 80%;
+}
+
+.hero-subtitle-text {
+  color: #ff3998;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  font-size: smaller;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 250%;
+  margin-top: 0em;
+}
+
+.hero-text {
+  margin-bottom: 2.5rem;
+}
+
+.hero-image {
+  position: absolute;
+  z-index: -1;
+  top: -5%;
+  left: 102%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
+.button {
+  border: 2px solid rgb(134, 53, 134);
+  border-radius: 1.6rem;
+  padding: 0.8rem 2rem;
+  font-weight: 600;
+}
+
+/* hero end */
+
+/* upsell start */
+
+.upsell {
+  background: url("assets/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.5em;
+  height: 30vh;
+  margin-top: 2rem;
+  height: 13em;
+  max-width: 100%;
+}
+
+.upsell-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 0em;
+}
+
+.upsell-title {
+  font-weight: 600;
+  font-size: x-large;
+  margin-top: 3.5rem;
+  margin-right: 2rem;
+  margin-bottom: 0;
+  margin-top: 3em;
+}
+
+.press {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100%;
+  column-gap: 3rem;
+  row-gap: 1rem;
+  margin: 2rem 1.3rem 1rem 1.5rem;
+}
+
+.press-logo-4 {
+  display: none;
+}
+/* upsell end */
+
+/* showcase start */
+
+.showcase {
+  overflow: hidden;
+}
+
+.showcase-text {
+  margin-left: 1.5rem;
+}
+
+.showcase-title {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.showcase-subtitle {
+  color: #555555;
+}
+
+.open-sea {
+  text-decoration: underline;
+  color: black;
+}
+
+.card {
+  margin-left: -1rem;
+}
+
+.card-3,
+.card-4 {
+  display: none;
+}
+
+.text-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 1rem;
+  background-color: gray;
+  position: relative;
+  top: -0.5rem;
+  max-width: 101%;
+}
+
+.showcase-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-columns: 10em repeat(4, 1fr); */
+  width: 63rem;
+}
+
+.card figcaption {
+  background-color: #eeee;
+}
+
+.text-block-left figcaption {
+  text-align: left;
+}
+
+.text-block-right figcaption {
+  text-align: right;
+}
+
+.gloop {
+  color: #ff8139;
+  font-size: x-small;
+  font-weight: 600;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.color {
+  font-weight: 600;
+  font-size: smaller;
+  padding-top: 0.2rem;
+  padding-left: 1rem;
+}
+
+.number {
+  border-bottom-left-radius: 0.5rem;
+  color: #777777;
+  padding-top: 0.4rem;
+  padding-left: 1rem;
+  padding-bottom: 0.65rem;
+  font-size: small;
+}
+
+.top-bid {
+  color: #555555;
+  font-size: x-small;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+}
+
+.eth-price {
+  font-weight: 500;
+  font-size: smaller;
+  padding-top: 0.2rem;
+  padding-right: 1rem;
+}
+
+.eth-image {
+  height: 0.9rem;
+  padding-right: 0.1rem;
+}
+
+.days-left {
+  border-bottom-right-radius: 0.5rem;
+  color: #555555;
+  padding-top: 0.2rem;
+  padding-right: 1rem;
+  padding-bottom: 0.75rem;
+  font-size: smaller;
+}
+
+/* showcase end */
+
+/* footer upsell start */
+.footer-upsell {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid #cccc;
+  border-bottom: 1px solid #cccc;
+}
+
+.footer-upsell-content {
+  margin: 1.5rem 2rem;
+  padding-bottom: 2em;
+}
+
+.footer-upsell-subtitle-text {
+  color: #ff3998;
+  font-weight: 600;
+}
+
+.footer-upsell-title {
+  font-weight: 900;
+  font-size: 250%;
+  max-width: 60%;
+}
+
+.footer-upsell-text {
+  margin-bottom: 2rem;
+  max-width: 50%;
+}
+
+.footer-upsell-image {
+  position: absolute;
+  z-index: -1;
+  top: 25%;
+  left: 90%;
+  transform: translateX(-70%);
+  width: 50%;
+}
+
+.hr-footer-upsell {
+  position: relative;
+  width: 130%;
+  border-bottom: 0.01rem solid #ccc;
+  top: -6%;
+  left: -14%;
+  margin-bottom: -6%;
+}
+
+/* footer upsell end */
+
+/* footer start */
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 90%;
+  margin-top: 2em;
+}
+
+.footer li {
+  list-style: none;
+  padding: 0.2em 0;
+}
+
+.footer-icons {
+  display: flex;
+  margin-left: 2.6em;
+}
+
+.footer-logo-subtitle {
+  color: #777777;
+  padding: 0.6em 0;
+}
+
+.fa {
+  padding-right: 0.5em;
+  color: #777777;
+}
+
+.footer-mid-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "about nft"
+    "about nft"
+    "contact social"
+    "contact social";
+  color: #555555;
+  font-size: smaller;
+}
+
+.footer-about {
+  grid-area: about;
+}
+
+.footer-contact {
+  grid-area: contact;
+}
+
+.footer-nft {
+  grid-area: nft;
+}
+
+.footer-social {
+  grid-area: social;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: #777777;
+}
+
+.copyright-subtitle {
+  display: none;
+}
+/* footer end */
+
+/* @media */
+@media screen and (min-width: 425px) {
+  .nft-logo {
+    margin-right: 6em;
+  }
+
+  .hero-text {
+    width: 80%;
+  }
+
+  .footer-upsell-image {
+    top: 28%;
+    left: 95%;
+    width: 36%;
+  }
+
+  .footer-mid-links {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .fa-bars {
+    display: none;
+  }
+
+  .nav-items {
+    display: inline;
+    padding-right: 1em;
+    margin-right: 1em;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2em;
+    padding-top: 1.5em;
+  }
+
+  .hero {
+    margin-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  .hero-content {
+    max-width: 50%;
+  }
+
+  .hero-image {
+    position: absolute;
+    z-index: -1;
+    top: -9%;
+    left: 85%;
+    width: 52%;
+  }
+
+  .upsell {
+    width: 95%;
+    margin-left: 1.5em;
+  }
+
+  .upsell-title {
+    margin-bottom: 0;
+    font-size: 200%;
+  }
+
+  .press {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 19%;
+  }
+  .card-3,
+  .card-4 {
+    display: inline;
+    overflow: hidden;
+  }
+
+  .footer-upsell-image {
+    top: 24%;
+    left: 70%;
+    width: 17%;
+  }
+
+  .hr-footer-upsell {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2.5em;
+    margin-top: 3em;
+  }
+  .footer-mid-links {
+    display: flex;
+  }
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em 2em 2em 2.3em;
+  }
+  .copyright-subtitle {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2em;
+    padding-top: 1.5em;
+  }
+
+  .nft-logo {
+    padding-left: 1.5em;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+  .nav-items {
+    display: inline;
+    padding-right: 1em;
+    margin-right: 1em;
+  }
+
+  .hero {
+    padding-left: 1.5em;
+    margin-top: 7em;
+    margin-bottom: 4em;
+    padding-bottom: 6em;
+  }
+
+  .hero-content {
+    max-width: 50%;
+  }
+
+  .hero-title {
+    font-size: 450%;
+    margin: 0em 0;
+  }
+
+  .hero-image {
+    position: absolute;
+    z-index: -1;
+    top: -12%;
+    left: 72%;
+    transform: translateX(-50%);
+    width: 55%;
+  }
+
+  .upsell {
+    width: 91%;
+    margin-left: 3em;
+  }
+
+  .upsell-title {
+    margin-bottom: 0;
+    font-size: 200%;
+  }
+
+  .press {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 12%;
+    position: relative;
+    left: 3%;
+    transform: translateY(40%);
+  }
+
+  .press-logo {
+    margin-right: 1.8em;
+  }
+
+  .press-logo-4 {
+    display: inline;
+  }
+
+  .showcase {
+    margin-top: 5em;
+    margin-left: 1.5em;
+  }
+
+  .card {
+    margin-right: 0;
+    margin-bottom: 4em;
+  }
+
+  .card-3,
+  .card-4 {
+    display: inline;
+  }
+
+  .footer-upsell {
+    margin-left: 3em;
+    margin-right: 2.2em;
+  }
+
+  .footer-upsell-content {
+    width: 80%;
+    margin-bottom: 3em;
+    margin-top: 6em;
+    margin-left: 0em;
+  }
+
+  .footer-upsell-text {
+    margin-bottom: 2.5em;
+  }
+
+  .footer-upsell-image {
+    top: 16%;
+    left: 72%;
+    transform: translateX(-70%);
+    width: 17%;
+  }
+
+  .hr-footer-upsell {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3em;
+    padding-left: 0.5em;
+    margin-top: 3em;
+  }
+  .footer-mid-links {
+    display: flex;
+  }
+
+  .footer-top {
+    margin-top: 0em;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em 2em 3em 2.7em;
+  }
+  .copyright-subtitle {
+    display: inline;
+  }
+}

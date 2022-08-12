@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./cao1.js" defer></script>
+  </head>
+  <body>
+    <div class="pirma-uzduotis-kaledos">
+      <h3>Pirma uzduotis</h3>
+      <form>
+        <input type="number" name="number" id="amzius" min="1" max="50" />
+        <input type="submit" value="Spausk" id="button" />
+        <p class="tekstas" id="tekstas"></p>
+        <hr />
+      </form>
+    </div>
+    <div class="antra-uzduotis-metai">
+      <h3>Antra uzduotis</h3>
+      <form>
+        <input type="number" name="metai" id="metai" />
+        <input type="submit" value="Press me" id="button2" />
+        <p id="metuAtsakymas"></p>
+        <hr />
+      </form>
+    </div>
+    <div class="trecia-uzduotis-temperatura">
+      <h3>Trecia uzduotis</h3>
+      <form>
+        <input type="number" name="celsius" id="celsius" min="-1000" max="1000" />
+        <button type="submit" id="button3">Push</button>
+        <p class="temperatura" id="temperatura"></p>
+        <hr />
+      </form>
+    </div>
+    <div class="ketvirta-uzduotis">
+      <h3>Ketvirta uzduotis</h3>
+      <form>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+          required
+        />
+        <br />
+        <br />
+        <button id="button4" type="submit" value="submit">Subscribe</button> <br />
+        <br />
+        <input type="checkbox" name="check" id="check" />
+        <p class="laiskai" id="laiskai"></p>
+        <hr />
+      </form>
+    </div>
+  </body>
+</html>

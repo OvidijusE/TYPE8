@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/add.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Property list</h1>
+        <p class="h__subtitle">See all the houses you want</p>
+      </div>
+    </header>
+    <main class="container">
+      <form class="form">
+        <h3 class="form-title">Add property</h3>
+        <h4 class="input-title">Img</h4>
+        <input class="input input-image" type="text" name="" id="img" placeholder="https://google.com/logo.png" />
+        <label for="img"></label>
+
+        <h4 class="input-title">Price, EUR</h4>
+        <input class="input input-price" type="number" name="" id="price" placeholder="50000" />
+        <label for="price"></label>
+
+        <h4 class="input-title">Description</h4>
+        <textarea
+          class="input"
+          name=""
+          id="text-area"
+          cols="150"
+          rows="10"
+          placeholder="Anything you would like to say?"
+        ></textarea>
+        <label for="text-area"></label>
+
+        <h4 class="input-title">City</h4>
+        <select class="input input-select" name="" id="city">
+          <option value="Vilnius">Vilnius</option>
+          <option value="Kaunas">Kaunas</option>
+          <option value="Klaipeda">Klaipeda</option>
+        </select>
+        <br />
+        <button class="btn-link">Add property</button>
+      </form>
+      <br />
+      <a class="btn-link" href="./cao.html">Back to main page</a>
+    </main>
+  </body>
+</html>

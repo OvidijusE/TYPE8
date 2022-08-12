@@ -1,0 +1,27 @@
+GET https://zany-skitter-caper.glitch.me/experiences
+
+###
+
+POST https://zany-skitter-caper.glitch.me/experiences
+Content-Type: application/json
+
+{
+    "companyName" : "Kodu akademija 2022",
+	"position" : "student",
+	"description" : "mokytis,mokytis ir dar karta mokytis...",
+	"startYear" : 2022,
+	"finishYear" : 2022
+}
+
+###
+GET https://api.chucknorris.io/jokes/random
+
+###
+
+GET https://api.chucknorris.io/jokes/categories
+
+###
+
+GET https://api.chucknorris.io/jokes/random?category=dev
+
+###

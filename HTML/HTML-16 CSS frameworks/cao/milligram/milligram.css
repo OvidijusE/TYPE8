@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css");
+
+body {
+  background-image: url("https://i.pinimg.com/originals/4f/ed/fa/4fedfad18e4b2d77a59a78881cc2b300.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin-top: 1rem;
+  background-color: white;
+  max-width: 60rem;
+  padding: 1rem;
+}
+
+.icy-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+}
+
+.button {
+  background-color: red;
+}
+
+input {
+  width: 200% !important;
+}

@@ -1,0 +1,40 @@
+@mixin centerFlex($color) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color;
+}
+
+main {
+  background-color: #953d8c;
+  min-height: 100vh;
+}
+
+// .main-nav {
+//   display: flex;
+//   justify-content: space-between;
+//   .main-nav__link {
+//     padding: 25px;
+//     background-color: white;
+//     display: block;
+//   }
+// }
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  &__link {
+    padding: 25px;
+    background-color: white;
+    display: block;
+  }
+}
+
+button {
+  font-size: 50px;
+  border: none;
+  &:hover {
+    font-size: 60px;
+    background-color: tomato;
+  }
+}

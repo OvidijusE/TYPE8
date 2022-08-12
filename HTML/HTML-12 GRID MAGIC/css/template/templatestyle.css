@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import "templatereset.css";
+@import "templatecommon.css";
+
+/* body {
+  background-color: #333;
+  margin-bottom: 100px;
+  font-family: "Open Sans", sans-serif;
+} */
+
+/* h1 {
+  font-size: 100px;
+  font-weight: 300;
+} */
+
+.header {
+  text-align: center;
+  grid-area: architectural;
+}
+
+.grid-1 {
+  grid-area: sky;
+}
+
+.grid-2 {
+  grid-area: planning;
+  background-color: rgb(206, 206, 206);
+  padding: 10px 50px 0 10px;
+}
+
+.grid-3 {
+  grid-area: clouds;
+}
+
+.grid-4 {
+  grid-area: buildings;
+  background-color: rgb(126, 126, 126);
+  color: white;
+  padding: 10px 50px 0 10px;
+}
+
+.grid-5 {
+  grid-area: apartaments;
+}
+
+.grid-6 {
+  grid-area: our;
+  background-color: rgb(50, 50, 145);
+  color: white;
+  padding: 10px 50px 0 10px;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  gap: 10px;
+  grid-template-areas:
+    "architectural architectural architectural"
+    " sky planning clouds "
+    "buildings apartaments our";
+}
+
+.img1 {
+  height: 100%;
+  width: 100%;
+}

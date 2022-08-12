@@ -1,0 +1,164 @@
+body {
+  background-color: rgb(230, 234, 235);
+  line-height: 1.2;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.exp-title {
+  margin-left: 5%;
+  margin-top: 5%;
+  font-weight: 800;
+  font-size: x-large;
+  position: relative;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  /* background-color: grey; */
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(3, 180, 224);
+  text-align: center;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  color: white;
+  width: 80%;
+}
+
+.profile-pic {
+  border-radius: 10rem;
+  background-color: rgb(201, 182, 182);
+  border: 2px solid rgb(255, 255, 255);
+  margin-top: 1rem;
+}
+
+.experience {
+  position: sticky;
+  transform: translate(-10%, 0%);
+  border-radius: 1rem;
+  background-color: white;
+  max-width: 80%;
+  margin-left: -2%;
+}
+
+.footer {
+  margin-bottom: 2%;
+}
+
+.work-experience {
+  display: grid;
+  grid-template-columns: 0.7fr 3fr;
+  margin-left: 20%;
+  grid-template-rows: 25%;
+  margin-bottom: -3%;
+}
+
+.company-name {
+  color: grey;
+}
+
+.coding-skills {
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.skills-word {
+  color: rgb(3, 180, 224);
+}
+
+.javascript-skill-bar {
+  width: 90%;
+  border: 1px solid rgb(3, 180, 224);
+  border-radius: 1rem;
+  padding: 0.15rem;
+}
+
+.javascript-skill-progress {
+  height: 0.3rem;
+  width: 95%;
+  border: none;
+  background-color: rgb(3, 180, 224);
+  border-radius: 1rem;
+}
+
+.skill-bar-title {
+  margin-bottom: 0%;
+}
+
+.title-percentage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-right: 9.5%;
+  padding-bottom: 0.1rem;
+}
+
+.php-skill-bar {
+  width: 90%;
+  border: 1px solid rgb(3, 180, 224);
+  border-radius: 1rem;
+  padding: 0.15rem;
+}
+
+.php-skill-progress {
+  height: 0.3rem;
+  width: 85%;
+  border: none;
+  background-color: rgb(3, 180, 224);
+  border-radius: 1rem;
+}
+
+.html-css-skill-bar {
+  width: 90%;
+  border: 1px solid rgb(3, 180, 224);
+  border-radius: 1rem;
+  padding: 0.15rem;
+}
+
+.html-css-skill-progress {
+  height: 0.3rem;
+  width: 100%;
+  border: none;
+  background-color: rgb(3, 180, 224);
+  border-radius: 1rem;
+}
+
+.smarty-twig-skill-bar {
+  width: 90%;
+  border: 1px solid rgb(3, 180, 224);
+  border-radius: 1rem;
+  padding: 0.15rem;
+}
+
+.smarty-twig-skill-progress {
+  height: 0.3rem;
+  width: 75%;
+  border: none;
+  background-color: rgb(3, 180, 224);
+  border-radius: 1rem;
+}
+
+.perl-skill-bar {
+  width: 90%;
+  border: 1px solid rgb(3, 180, 224);
+  border-radius: 1rem;
+  padding: 0.15rem;
+}
+
+.perl-skill-progress {
+  height: 0.3rem;
+  width: 90%;
+  border: none;
+  background-color: rgb(3, 180, 224);
+  border-radius: 1rem;
+}
+
+.skill-percentage {
+  color: rgb(165, 165, 165);
+}

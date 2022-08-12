@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import "caoreset.css";
+@import "caocommon.css";
+
+body {
+  background-color: lightgrey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+  font-weight: 300;
+  font-size: xx-large;
+}
+
+.cloud {
+  display: flex;
+  margin: 10px 10px;
+  gap: 10px;
+  font-size: smaller;
+}
+
+.container-grid {
+  padding: 5px 10px;
+  /* geriau daryk su display : block */
+  display: grid;
+  color: black;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  grid-template-columns: 1fr 1fr 3fr 1fr;
+  grid-template-rows: 4fr 7fr 7fr 0fr;
+  grid-template-areas:
+    "navigation navigation navigation navigation "
+    "login login content content"
+    "help help content content"
+    "footer footer footer footer";
+}
+
+.grid-item-1 {
+  grid-area: navigation;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 0px 20px;
+}
+
+.grid-item-2 {
+  grid-area: login;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 20px;
+}
+
+.grid-item-3 {
+  grid-area: content;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 20px;
+}
+
+.grid-item-4 {
+  grid-area: help;
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.grid-item-5 {
+  grid-area: footer;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container-grid {
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "navigation navigation navigation"
+      "login content content content "
+      "help content content content "
+      ". . footer .";
+  }
+  .nav {
+    /* justify-content: center; */
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+  .nav:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+
+  .nav-item {
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container-grid {
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "navigation navigation navigation"
+      "login content content"
+      "help content content"
+      "footer . ";
+  }
+
+  .nav-item {
+    padding-bottom: 5px;
+  }
+
+  .nav {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+
+  .nav:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .help {
+    display: none;
+  }
+  .container-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "navigation"
+      "login"
+      "content"
+      "help"
+      "footer";
+    margin: 10px;
+  }
+
+  .nav-item {
+    padding-bottom: 5px;
+  }
+
+  .nav {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+
+  .nav:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+}

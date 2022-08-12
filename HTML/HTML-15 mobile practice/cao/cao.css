@@ -1,0 +1,269 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;800;&display=swap");
+@import "reset.css";
+
+body {
+  width: 100%;
+  
+}
+
+body,
+p, 
+h1,
+h2, 
+h3, 
+button {
+  font-family: "Source Sans Pro";
+  line-height: 1.2;
+  
+}
+
+
+
+.flex-container {
+  
+  
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin-left: 0.6rem;
+  
+}
+
+.google-img {
+  padding-bottom: 1rem;
+  width: 6rem;
+}
+
+
+
+h1 {
+  color: rgb(77, 77, 77);
+  font-weight: bold;
+  padding-bottom: 0.7rem;
+  text-align: left;
+}
+
+p {
+  font-weight: 300;
+  text-align: left;
+  line-height: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+.main-blocks-container {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  color: white;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+   
+}
+
+
+.block {
+  position: relative;
+  margin-bottom: 0.6rem;
+  margin-right: 0.6rem;
+  
+  
+}
+
+img {
+  border-radius: 0.3rem;
+    max-width: 100%;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform .4s; 
+  }
+
+    
+  img:hover {
+    transform: scale(1.05);
+   }
+ 
+
+h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0.3rem;
+  vertical-align: baseline;
+}
+
+.contacts {
+  background-color: rgb(209, 209, 209);
+  max-width: 100%;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+
+
+  /* max-width: 100%; */
+}
+
+.follow-text,
+.get-in-touch {
+  letter-spacing: 0.2rem;
+  padding-left: 1rem;
+  padding: 1rem;
+}
+.icon {
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  padding: 0.6rem 0.7rem;
+  margin-right: 0.2rem;
+  
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input {
+  display: flex;
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color: rgb(209, 209, 209);
+  margin-bottom: 0.9rem;
+  margin-left: 1rem;
+  /* width: 20rem; */
+  width: 90%;
+}
+
+.input-message {
+  margin-top: 1.5rem;
+}
+
+.button-1 {
+  border: none;
+  color: white;
+  background-color: rgb(85, 85, 85);
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 7.5rem;
+  border-radius: 0.3rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.end {
+  color: gray;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 320px) {
+
+  img {
+  max-width: 100%;
+  
+}
+
+  .block-2,
+  .block-3,
+  .block-4,
+  .block-5,
+  .block-6,
+  .block-7,
+  .block-8,
+  .block-9 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+    .flex-container {
+    max-width: 80%;
+    margin-left: 1rem;
+  }
+  .main-blocks-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+    /* margin-bottom: 2rem; */
+    margin: 0 1rem 2rem 1rem;
+  }
+  .block {
+    display: grid;
+  }
+
+  
+  .contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "block_2 block_1";
+    margin: 0 1.5rem 0 1rem;
+  }
+ 
+  .icons-block {
+    grid-area: block_1;
+    margin-left: 1rem;
+  }
+
+  .forms-block {
+    grid-area: block_2;
+  }
+
+  .name_email {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .input-message {
+    width: 96%;
+  }
+
+  .button-1 {
+    margin-top: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+  
+
+  @media screen and (min-width: 1024px) {
+      .flex-container {
+      margin-left: 2rem;
+       }
+
+      .main-blocks-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      row-gap: 1rem;
+      max-width: 95%;
+      margin-bottom: 3rem;
+      margin-left: 2rem;
+    }
+    .block {
+      display: grid;
+      max-width: 100%;
+      
+    }
+
+    img {
+      max-width: 90%;
+      
+    }
+
+    .contacts {
+      max-width: 95%;
+      margin-left: 1rem;
+    }
+
+    .icons-block {
+      max-width: 70%;
+      margin-left: 5rem;
+    }
+
+    .input-name {
+      padding-right: 3rem;
+    }
+
+    .input-email {
+      padding-right: 3.3rem;
+
+    }
+    
+  
+

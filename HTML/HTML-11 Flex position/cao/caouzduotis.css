@@ -1,0 +1,182 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+
+.forty {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  /* background: rgba(19, 19, 99, 0.7); */
+  color: white;
+  height: 40vh;
+  padding-left: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-image: url("https://static.posters.cz/image/1300/fototapety/above-the-clouds-sky-i77999.jpg"), linear-gradient(rgb(56, 3, 3), rgb(11, 11, 32));
+}
+
+h1 {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding-bottom: 10px;
+  padding-right: 800px;
+}
+
+h3 {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding-bottom: 10px;
+  padding-right: 150px;
+}
+
+.block-1 {
+  display: flex;
+}
+
+.aliquam {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: rgb(103, 103, 202); */
+  color: white;
+  flex: 0 1 45%;
+  height: 40vh;
+  padding-left: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-image: url("https://media.istockphoto.com/photos/tropical-beach-background-picture-id1145474071?k=20&m=1145474071&s=612x612&w=0&h=toGQ0gUXiWY_80bra65p56ZMLJty17qMdwcFnenQKEk="), linear-gradient(rgb(4, 5, 32), rgb(7, 22, 43));
+}
+
+.tempus {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: rgb(107, 30, 122); */
+  color: white;
+  flex: 0 0 55%;
+  height: 40vh;
+  padding-left: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6c/Vilnius_city.jpg"), linear-gradient(rgb(34, 13, 36), rgb(27, 1, 29));
+}
+
+.block-2 {
+  display: flex;
+}
+
+.magna {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: rgb(187, 146, 93); */
+  color: white;
+  flex: 0 0 55%;
+  height: 40vh;
+  padding-left: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-image: url("https://i.guim.co.uk/img/media/d143e03bccd1150ef52b8b6abd7f3e46885ea1b3/0_182_5472_3283/master/5472.jpg?width=1200&quality=85&auto=format&fit=max&s=d5a74a011c3fef1ad9c1c962721d221d"),
+    linear-gradient(rgb(0, 0, 0), rgb(12, 46, 22));
+}
+
+.ipsum {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: rgb(169, 173, 88); */
+  color: white;
+  flex: 0 1 45%;
+  height: 40vh;
+  padding-left: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-image: url("https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg"), linear-gradient(rgb(37, 35, 12), rgb(0, 0, 0));
+}
+
+.block-3 {
+  display: flex;
+}
+
+.consequat {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: rgb(150, 150, 233); */
+  color: white;
+  flex: 0 1 45%;
+  height: 40vh;
+  padding-left: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-image: url("https://www.networkrail.co.uk/wp-content/uploads/2019/02/Paddington-station-refurbished-and-improved-roof-1024x683.jpg"), linear-gradient(rgb(12, 13, 65), rgb(0, 0, 0));
+}
+
+.etiam {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: rgb(33, 160, 71); */
+  color: white;
+  flex: 0 0 55%;
+  height: 40vh;
+  padding-left: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-image: url("https://image.freepik.com/free-photo/indian-photographer-man-holding-his-camera-white-background_231208-3763.jpg"), linear-gradient(rgb(12, 26, 9), rgb(0, 0, 0));
+}
+
+.massa-libero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(43, 40, 77);
+  color: white;
+  height: 40vh;
+  padding-left: 10%;
+}
+
+.massa-libero > p {
+  max-width: 60%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(24, 22, 41);
+  color: white;
+  height: 40vh;
+  padding-left: 10%;
+}
+
+i {
+  color: white;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  padding: 10px 30px 10px 10px;
+}

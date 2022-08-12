@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add posts</title>
+    <script src="../js/helper.js" defer></script>
+    <script src="../js/addPosts.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Our Posts</h1>
+        <p class="h__subtitle">See all the posts you want</p>
+      </div>
+    </header>
+    <main class="container">
+      <div class="cards-container"></div>
+    </main>
+
+    <section class="container">
+      <form class="form">
+        <h3 class="form-title">Create new post</h3>
+
+        <h4 class="input-title">Title</h4>
+        <input class="input input-image" type="text" name="title" id="title" placeholder="title" />
+
+        <h4 class="input-title">Year</h4>
+        <input class="input input-price" type="number" name="year" id="year" placeholder="year" />
+
+        <h4 class="input-title">Author</h4>
+        <input class="input" type="text" name="author" id="author" placeholder="author" />
+        <br />
+
+        <h4 class="input-title">Text</h4>
+        <textarea class="input" name="body" id="body" cols="30" rows="10" placeholder="enter text"></textarea>
+        <br />
+
+        <button class="btn-link">Create posts</button>
+      </form>
+      <br />
+      <a class="btn-link" href="./posts.html">Back to posts</a>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+html {
+  max-width: 70%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+body {
+  background-image: url(https://media-exp1.licdn.com/dms/image/C4D1BAQE8pzUMMhjAMA/company-background_10000/0/1549878601544?e=2159024400&v=beta&t=j_tKahjwAhmuKs6KBxLcUghlXcRrQYjS30vN6qyYfY8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.header {
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  border-radius: 0px;
+  padding: 0px 180px;
+}
+
+.iki-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.nav-items {
+  color: black;
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav-items:hover {
+  text-decoration: underline;
+}
+
+.main-text {
+  background-color: white;
+  width: 600px;
+  height: 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 0px 0px 10px 10px;
+}
+
+.main-article {
+  margin-right: -50px;
+  padding-left: 30px;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+input,
+textarea {
+  /* margin: 10px -280px 100px 10px; */
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 5px 5px 0;
+  background: none;
+  border: none;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(209, 193, 193);
+  border-collapse: collapse;
+  text-align: center;
+  min-width: 70%;
+}
+
+table tr td:first-child {
+  color: rgb(1, 138, 1);
+  font-weight: bold;
+}
+
+.green-text {
+  color: green;
+}
+
+.main-article h2:last-child {
+  color: rgb(1, 138, 1);
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  background-color: green;
+  color: white;
+  border: none;
+  width: 50%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+table {
+  margin-top: 10px;
+}
+
+.istorijos-pradzia {
+  width: 70%;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+table {
+  border: 1px solid #000;
+}

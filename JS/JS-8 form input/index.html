@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" />
+    <title>Form</title>
+    <style>
+      .error {
+        color: tomato;
+      }
+    </style>
+    <script src="./js/form.js" defer></script>
+  </head>
+  <body>
+    <h1>Our form</h1>
+    <form id="userForm" autocomplete="off">
+      <input type="text" name="username" id="username" placeholder="Username" value="Mike" />
+      <span class="error"></span>
+      <input type="email" name="email" id="email" placeholder="Email" value="a@b.com" />
+      <h3>Is kur jus?</h3>
+      <select name="town" id="town">
+        <option value="">Please town</option>
+        <option value="kaunas">Kaunas</option>
+        <option value="vilnius">Vilnius</option>
+        <option value="klaipeda">Klaipeda</option>
+      </select>
+      <label for="patinka">Patinka programavimas (between 0 and 10)</label>
+      <strong class="value"></strong>
+      <input type="range" name="points" id="points" step="1" min="0" max="10" />
+      <br />
+      <button type="submit">Siusti</button>
+    </form>
+    <div id="results">
+      <h3>Results</h3>
+      <p>Username : <span id="out1"></span></p>
+      <p>Email : <span id="out2"></span></p>
+      <p>Town : <span id="out3"></span></p>
+    </div>
+  </body>
+</html>

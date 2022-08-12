@@ -1,0 +1,15 @@
+/* #card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#item-image {
+    object fit
+  max-width: 50%;
+  max-height: 70%;
+}
+
+#item-description {
+  max-width: 60%;
+  max-height: 10%;
+} */

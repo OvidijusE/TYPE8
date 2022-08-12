@@ -1,0 +1,10 @@
+.bottom-right {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.rotated {
+  transform: rotate(3600deg);
+  transition: all 5s ease-in-out;
+}
